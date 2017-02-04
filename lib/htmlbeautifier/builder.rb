@@ -4,7 +4,7 @@ require "htmlbeautifier/ruby_indenter"
 module HtmlBeautifier
   class Builder
     DEFAULT_OPTIONS = {
-      indent: "  ",
+      indent: " ",
       initial_level: 0,
       stop_on_errors: false
     }
